@@ -4,6 +4,10 @@
   "description": "A SQL Server DB used for unit testing",
   "main": "index.js",
   "scripts": {
+    "docker-build": "docker build -t unittestdb .",
+    "docker-run": "docker run -d -p 1433:1433 --name unittestdb unittestdb",
+    "docker-stop": "docker rm -f unittestdb",
+    "docker-clean-run": "npm run docker-stop && npm run docker-build && npm run docker-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dchorneyko",
