@@ -1,0 +1,11 @@
+{
+  "name": "unittestdb",
+  "version": "1.0.0",
+  "description": "A SQL Server DB used for unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dchorneyko",
+  "license": "ISC"
+}
