@@ -1,0 +1,1 @@
+:r /usr/src/app/init/users.sql
